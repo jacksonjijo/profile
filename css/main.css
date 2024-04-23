@@ -1,0 +1,330 @@
+body {
+    height: 2000px;
+}
+
+/* 1.Navbar */
+
+.navbar {
+    background: #005499;
+    padding: 11px;
+}
+
+.nav {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0 20px;
+}
+
+.navbar .nav .nav-link {
+    color: #ffffff;
+}
+
+.navbar .nav .nav-link:hover {
+    color: #212222;
+}
+
+/* 2.Slider */
+
+.slider {
+    background: url('../img/slide-1-bg.jpg');
+    height: 605px;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+}
+
+.headline {
+    font-size: 50px;
+    font-family: 'Muli', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #0062b3;
+    
+}
+
+.paragraph {
+    font-size: 14px;
+    font-weight: 700;
+    color: #212222;
+    line-height: 28px;
+    padding-right: 20px;
+}
+
+.btn {
+    border: 2px solid #0062b3;
+    border-radius: 35px;
+    padding: 10px 30px;
+    font-size: 14px;
+    color: #212222;
+    font-weight: 500;
+    margin-top: 20px;
+    text-decoration: none;
+    z-index: 200;
+}
+
+.slider img{
+    height: 250px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+/* 3. About Me */
+
+.about-me {
+    padding: 80px;
+    background: #2d2e2e;
+}
+
+.h2:hover {
+    color: #ffffff;
+}
+
+.about-me img {
+    padding-right: 50px;
+    width: 500px;
+    height: 440px;
+}
+
+.about-me h2 {
+    font-size: 30px;
+    font-weight: 800;
+    color: #0062b3;
+}
+
+.about-me p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #bac8d3;
+    line-height: 28px;
+    margin: 20px 0 40px 0;
+}
+
+.about-me td {
+    font-size: 15px;
+    font-weight: 400;
+    color: #bac8d3;
+    padding-bottom: 20px;
+}
+
+/* 4. Education */
+
+.Education {
+    background: url('../img/education-background-mml3hj968v1lgn1s.jpg');
+    padding-bottom: 20px;
+}
+
+.Education h2:hover {
+    color: #212222;
+}
+
+.Education h2 {
+    font-size: 30px;
+    font-weight: 800;
+    color: #0062b3;
+    margin-bottom: 60px;
+}
+
+.Education .box {
+    padding: 40px;
+    margin-bottom: 30px;
+    background: #212222;
+}
+
+.Education .box span {
+    font-size: 30px;
+    color: #0062b3;
+}
+
+.Education .box h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #eee;
+    margin: 0;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.Education .box p {
+    font-size: 14px;
+    color: #bac8d3;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 0;
+    margin: 0;
+}
+
+/* 5. Skills */
+
+.Skills {
+    padding: 25px;
+    background-color: #2d2e2e;
+}
+
+.Skills h2:hover {
+    color: #ffffff;
+}
+
+.Skills h2 {
+    font-size: 30px;
+    font-weight: 800;
+    color: #0062b3;
+}
+
+.Skills h4 {
+    font-size: 30px;
+    font-weight: 800;
+    color: #e9e8e6;
+    padding-right: 25px;
+}
+
+.Skills li {
+    font-size: 15px;
+    font-weight: 400;
+    color: #bac8d3;
+    line-height: 12px;
+    margin: 20px 0 40px 0;
+}
+
+/* 6. Project */
+
+.project{
+    padding: 0 0 0 0;
+    padding-bottom: 0;
+    width: 1500px;
+}
+
+.project h2:hover {
+    color: #212222;
+}
+
+.project h2 {
+    font-size: 30px;
+    font-weight: 800;
+    color: #0062b3;
+    margin-bottom: 20px;
+}
+
+.project h4 {
+    font-size: 20px;
+    font-weight: 600px;
+    color: #212222;
+}
+
+.project p{
+    text-align: justify;
+    font-size: 14px;
+    color: #2d2e2e;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 0;
+    margin: 0;
+}
+
+/* 7. Experince */
+
+.Experince {
+    background: #2d2e2e;
+    padding-bottom: 90px;
+}
+
+.Experince h2:hover {
+    color: #ffffff;
+}
+
+.Experince h2 {
+    font-size: 30px;
+    font-weight: 800;
+    color: #0062b3;
+    margin-bottom: 60px;
+}
+
+.Experince .box {
+    padding: 40px;
+    margin-bottom: 30px;
+    background: #212222;
+}
+
+.Experince .box span {
+    font-size: 30px;
+    color: #0062b3;
+}
+
+.Experince .box p {
+    font-size: 14px;
+    color: #bac8d3;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 0;
+    margin: 0;
+}
+
+/* 8. CV */
+
+.CV {
+    padding: 0 0 50px 0;
+    background: #0062b3;
+}
+
+.button {
+    border: 2px solid #2d2e2e;
+    border-radius: 35px;
+    padding: 10px 30px;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 500;
+    margin-top: 20px;
+    z-index: 200;
+}
+
+.button:hover {
+    color: #212222;
+}
+
+/* 9. Contact */
+
+.contact {
+    padding: 0 0 130px 0;
+    background: #2d2e2e;
+}
+
+.contact h2:hover {
+    color: #ffffff;
+}
+
+.contact h2 {
+    font-size: 30px;
+    font-weight: 800;
+    color: #0062b3;
+    margin-bottom: 60px;
+}
+
+.contact .form-control {
+    padding: 20px;
+    font-size: 13px;
+    margin-bottom: 10px;
+    background: #fcf2f2;
+}
+
+.contact button.btn {
+    padding: 10px;
+    font-size: 15px;
+    background: #0062b3;
+    color: #ffffff;
+}
+
+/* 10. Footer */
+
+.footer {
+    padding: 10px;
+    background: #242527;
+}
+
+.footer p {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 300;
+    margin: 0;
+    margin-top: 0px;
+}
